@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>To-Do-List</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">>
 </head>
 <body>
 
@@ -37,7 +38,9 @@
                     <input type="checkbox" class="mark-done" data-id=1>
                 </td>
                 <td>
-                    <a href="#" class="remove-task">X</a>
+                    <a href="#" class="remove-task">
+                        <i class="fa fa-trash"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -47,7 +50,9 @@
                     <input type="checkbox" class="mark-done" data-id=2>
                 </td>
                 <td>
-                    <a href="#" class="remove-task">X</a>
+                    <a href="#" class="remove-task">
+                        <i class="fa fa-trash"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -57,12 +62,19 @@
                     <input type="checkbox" class="mark-done" data-id=3>
                 </td>
                 <td>
-                    <a href="#" class="remove-task">X</a>
+                    <a href="#" class="remove-task">
+                        <i class="fa fa-trash"></i>
+                    </a>
                 </td>
             </tr>
         </tbody>
     </table>
-
+    <script>
+        src="js/lib/jquery-3.5.1.js"
+    </script>
+    <script>
+        src="js/tasks.js"
+    </script>
 
 </body>
 </html>
